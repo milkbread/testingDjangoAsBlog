@@ -5,6 +5,10 @@ from .models import Post
 from .forms import PostForm
 
 
+def master(request):
+    return render(request, 'blog/home.html')
+
+
 # @login_required
 def home(request):
     posts = Post.objects.filter(ptime__lte=timezone.now()).order_by('ptime')

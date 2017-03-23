@@ -14,3 +14,8 @@ Social Auth
 
 https://simpleisbetterthancomplex.com/tutorial/2016/10/24/how-to-add-social-login-to-django.html
 https://artandlogic.com/2014/04/tutorial-adding-facebooktwittergoogle-authentication-to-a-django-application/
+
+Layouting
+#########
+
+http://www.layoutit.com/build#

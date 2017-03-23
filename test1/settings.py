@@ -131,7 +131,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 AUTHENTICATION_BACKENDS = (
     # 'social_core.backends.github.GithubOAuth2',
-    # 'social_core.backends.twitter.TwitterOAuth',
+    'social_core.backends.twitter.TwitterOAuth',
     # 'social_core.backends.facebook.FacebookOAuth2',
     'social_core.backends.google.GoogleOAuth2',
 
@@ -144,4 +144,7 @@ LOGIN_REDIRECT_URL = 'home'
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '234734081867-o6ej9c8sqmis833ln8c9l4va3kif9954.apps.googleusercontent.com'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'zp3GRz-kKWqjRAUP9RICZCXn'
+
+SOCIAL_AUTH_TWITTER_KEY = 'Ig8HDIt9wVq6diBNz0pHu65ZK'
+SOCIAL_AUTH_TWITTER_SECRET = 'ECa2Lqm1r6UzTzrihEqGwgeu7iceoTWWckxl1Lok1OmDTHCTrl'
 
